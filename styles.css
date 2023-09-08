@@ -1,0 +1,72 @@
+/* Add your CSS styles here */
+
+body {
+    background-image: url('bg.jpg'); /* Replace with your cloud background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0; /* Fallback background color */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ header {
+    /* background-color:rgb(9, 214, 255); */
+    color: #090909;
+    /* margin: 80px; */
+    /* padding: 40px; */
+    margin-left: 40%;
+    margin-right: 40%;
+} 
+
+h1 {
+    font-size: 28px;
+}
+
+section {
+    margin: 80px;
+    padding: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #d5c7d4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#weather-data {
+    display: none;
+}
+
+#weather-icon {
+    font-size: 48px;
+    margin: 20px;
+}
+
+#temperature {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 18px;
+    margin: 40px;
+}
+
+/* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+} */
